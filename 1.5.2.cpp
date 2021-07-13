@@ -2,7 +2,7 @@
 #define max_length 100
 
 class SetofNumbers {
-//Данный класс расчитан на множество чисел N
+//Данный класс расчитан на использование чисел из множества N
 private:
     int arr[max_length];
     int top = -1;

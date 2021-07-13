@@ -51,11 +51,12 @@ int main() {
     printf("Введите количество элементов \n");
     scanf("%d", &elements);
     int arr[2][elements];
+
     printf("Введите объем и стоимость предмета через пробел \n");
     for (int i = 0; i < elements; i++) {
         scanf("%d %d", &arr[0][i], &arr[1][i]);
     }
+
     second_method(arr);
     return 0;
-
 }
